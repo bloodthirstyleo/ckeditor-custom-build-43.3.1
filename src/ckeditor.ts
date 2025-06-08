@@ -36,8 +36,7 @@ import {
 import {
 	AutoImage,
 	Image,
-	ImageCaption,
-	ImageInsert,
+	ImageCaption,	
 	ImageResize,
 	ImageStyle,
 	ImageToolbar,	
