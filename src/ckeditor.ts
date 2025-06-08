@@ -40,8 +40,7 @@ import {
 	ImageInsert,
 	ImageResize,
 	ImageStyle,
-	ImageToolbar,
-	ImageUpload
+	ImageToolbar,	
 } from '@ckeditor/ckeditor5-image';
 import { Indent, IndentBlock } from '@ckeditor/ckeditor5-indent';
 import { TextPartLanguage } from '@ckeditor/ckeditor5-language';
@@ -78,7 +77,6 @@ import {
 } from '@ckeditor/ckeditor5-table';
 import { TextTransformation } from '@ckeditor/ckeditor5-typing';
 import { Undo } from '@ckeditor/ckeditor5-undo';
-import { SimpleUploadAdapter } from '@ckeditor/ckeditor5-upload';
 import { EditorWatchdog } from '@ckeditor/ckeditor5-watchdog';
 import { WordCount } from '@ckeditor/ckeditor5-word-count';
 
@@ -115,8 +113,7 @@ class Editor extends ClassicEditor {
 		ImageInsert,
 		ImageResize,
 		ImageStyle,
-		ImageToolbar,
-		ImageUpload,
+		ImageToolbar,		
 		Indent,
 		IndentBlock,
 		Italic,
@@ -134,7 +131,6 @@ class Editor extends ClassicEditor {
 		RemoveFormat,
 		SelectAll,
 		ShowBlocks,
-		SimpleUploadAdapter,
 		SourceEditing,
 		SpecialCharacters,
 		SpecialCharactersArrows,
@@ -190,18 +186,14 @@ class Editor extends ClassicEditor {
 				'bulletedList',
 				'numberedList',
 				'|',
-				'imageInsert',
-				'imageUpload',
+				'imageInsert',				
 				'blockQuote',
-				'insertTable',
-				'mediaEmbed',
+				'insertTable',				
 				'|',
 				'pageBreak',
 				'horizontalLine',
-				'specialCharacters',
-				'htmlEmbed',
-				'|',
-				'sourceEditing',
+				'specialCharacters',				
+				'|',				
 				'selectAll',
 				'undo',
 				'redo'
