@@ -1,10 +1,8 @@
 {
-  "name": "ckeditor5-custom-build",
-  "author": "CKSource",
-  "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "0.1.1",
-  "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
+  "name": "@bloodthirstyleo/ckeditor5-custom-build",  
+  "description": "A custom CKEditor version 43.3.1",
+  "version": "0.1.2",
+  "license": "MIT",  
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",
   "dependencies": {
