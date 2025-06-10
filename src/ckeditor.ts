@@ -225,7 +225,19 @@ class Editor extends ClassicEditor {
       ],
     },
     fontSize: {
-      options: ["8pt", "10pt", "12pt", "13pt", "14pt", "18pt", "24pt", "36pt"],
+     options: [
+    { title: '6', model: '8px' },
+    { title: '8', model: '11px' },
+    { title: '10', model: '13px' },
+    { title: '12', model: '16px' },
+    { title: '13', model: '17px' },
+    { title: '14', model: '19px' },
+    { title: '16', model: '21px' },
+    { title: '18', model: '24px' },
+    { title: '20', model: '27px' },
+    { title: '24', model: '32px' },
+    { title: '36', model: '48px' },
+  ],
       supportAllValues: true,
     },
   };
