@@ -225,7 +225,7 @@
     "@ckeditor/ckeditor5-utils" "43.3.1"
     ckeditor5 "43.3.1"
 
-"@ckeditor/ckeditor5-core@43.3.1":
+"@ckeditor/ckeditor5-core@^43.3.1", "@ckeditor/ckeditor5-core@43.3.1":
   version "43.3.1"
   resolved "https://registry.npmjs.org/@ckeditor/ckeditor5-core/-/ckeditor5-core-43.3.1.tgz"
   integrity sha512-6pil2OF4auF3PKrg1Oa86CqC91ZYc+NuHih0ebM0JW/I06d+0smnJg5dw4yN7mKbghbJS8mNrusxA5cf6Hkh6w==
