@@ -86,7 +86,6 @@ import { Undo } from "@ckeditor/ckeditor5-undo";
 import { EditorWatchdog } from "@ckeditor/ckeditor5-watchdog";
 import { WordCount } from "@ckeditor/ckeditor5-word-count";
 import ImageInsertViaUrl from "@ckeditor/ckeditor5-image/src/imageinsertviaurl";
-import FontSizePtPlugin from './plugin/font/FontSizePtPlugin';
 
 // You can read more about extending the build with additional plugins in the "Installing plugins" guide.
 // See https://ckeditor.com/docs/ckeditor5/latest/installation/plugins/installing-plugins.html for details.
@@ -108,8 +107,7 @@ class Editor extends ClassicEditor {
     FontBackgroundColor,
     FontColor,
     FontFamily,
-    FontSize,
-    FontSizePtPlugin,
+    FontSize,    
     FullPage,
     GeneralHtmlSupport,
     Heading,
