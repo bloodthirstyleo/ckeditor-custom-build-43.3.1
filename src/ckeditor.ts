@@ -108,6 +108,7 @@ class Editor extends ClassicEditor {
     FontBackgroundColor,
     FontColor,
     FontFamily,
+    FontSize,
     FontSizePtPlugin,
     FullPage,
     GeneralHtmlSupport,
@@ -164,7 +165,7 @@ class Editor extends ClassicEditor {
     TodoList,
     Underline,
     Undo,
-    WordCount,
+    WordCount    
   ];
 
   public static override defaultConfig: EditorConfig = {
