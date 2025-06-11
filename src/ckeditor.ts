@@ -29,7 +29,7 @@ import {
   FontFamily,
   FontSize,
 } from "@ckeditor/ckeditor5-font";
-import { Heading, Title } from "@ckeditor/ckeditor5-heading";
+import { Heading } from "@ckeditor/ckeditor5-heading";
 import { Highlight } from "@ckeditor/ckeditor5-highlight";
 import { HorizontalLine } from "@ckeditor/ckeditor5-horizontal-line";
 import { HtmlEmbed } from "@ckeditor/ckeditor5-html-embed";
@@ -158,8 +158,7 @@ class Editor extends ClassicEditor {
     TableProperties,
     TableToolbar,
     TextPartLanguage,
-    TextTransformation,
-    Title,
+    TextTransformation,    
     TodoList,
     Underline,
     Undo,
