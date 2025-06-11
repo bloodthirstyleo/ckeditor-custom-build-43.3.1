@@ -107,7 +107,7 @@ class Editor extends ClassicEditor {
     FontBackgroundColor,
     FontColor,
     FontFamily,
-    FontSize,    
+    FontSize,
     FullPage,
     GeneralHtmlSupport,
     Heading,
@@ -163,7 +163,7 @@ class Editor extends ClassicEditor {
     TodoList,
     Underline,
     Undo,
-    WordCount    
+    WordCount,
   ];
 
   public static override defaultConfig: EditorConfig = {
@@ -205,6 +205,15 @@ class Editor extends ClassicEditor {
       ],
     },
     language: "vi",
+    heading: {
+      options: [
+        {
+          model: "paragraph",
+          title: "Paragraph",
+          class: "ck-heading_paragraph",
+        },
+      ],
+    },
     image: {
       toolbar: [
         "imageTextAlternative",
@@ -225,19 +234,19 @@ class Editor extends ClassicEditor {
       ],
     },
     fontSize: {
-     options: [
-    { title: '6', model: '8px' },
-    { title: '8', model: '11px' },
-    { title: '10', model: '13px' },
-    { title: '12', model: '16px' },
-    { title: '13', model: '17px' },
-    { title: '14', model: '19px' },
-    { title: '16', model: '21px' },
-    { title: '18', model: '24px' },
-    { title: '20', model: '27px' },
-    { title: '24', model: '32px' },
-    { title: '36', model: '48px' },
-  ],
+      options: [
+        { title: "6", model: "8px" },
+        { title: "8", model: "11px" },
+        { title: "10", model: "13px" },
+        { title: "12", model: "16px" },
+        { title: "13", model: "17px" },
+        { title: "14", model: "19px" },
+        { title: "16", model: "21px" },
+        { title: "18", model: "24px" },
+        { title: "20", model: "27px" },
+        { title: "24", model: "32px" },
+        { title: "36", model: "48px" },
+      ],
       supportAllValues: true,
     },
   };
